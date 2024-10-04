@@ -34,7 +34,7 @@ public interface EmployeeMapper {
 
 
     /**
-     * 禁用启用员工账号
+     * 根据id修改员工信息
      * @param employee
      */
     void update(Employee employee);
